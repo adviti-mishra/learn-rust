@@ -1,0 +1,5 @@
+Rust is a statically typed language: 
+Every single value in Rust has a type and that type must be known to the compiler at compile-time.
+
+Types are a form of static analysis.
+You can think of a type as a tag that the compiler attaches to every value in your program. Depending on the tag, the compiler can enforce different rules—e.g. you can't add a string to a number, but you can add two numbers together. If leveraged correctly, types can prevent whole classes of runtime bugs.
